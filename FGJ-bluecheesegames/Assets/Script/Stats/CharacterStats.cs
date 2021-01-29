@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    public int maxHealth = 100;
     public int currentHealth { get; private set; }
-    
+    public int maxHealth = 100;
+    public int attackDamage = 10;
+    public Animator animator;
+
     public Stat damage;
     public Stat armor;
-
-    public Stat strength;
-    public Stat agility;
-    public Stat constitution;
-
 
     private void Awake()
     {
@@ -22,6 +19,7 @@ public class CharacterStats : MonoBehaviour
 
     public void TakeDamage (int damage)
     {
+        animator.SetTrigger("Hurt");
         damage -= armor.GetValue();
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
@@ -35,6 +33,10 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void Die()
     {
+        animator.SetBool("IsDead", true);
         Debug.Log(transform.name + " died");
+
+        this.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
     }
 }
