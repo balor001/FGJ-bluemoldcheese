@@ -10,6 +10,11 @@ public class CharacterStats : MonoBehaviour
     public Stat damage;
     public Stat armor;
 
+    public Stat strength;
+    public Stat agility;
+    public Stat constitution;
+
+
     private void Awake()
     {
         currentHealth = maxHealth;
