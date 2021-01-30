@@ -14,9 +14,12 @@ public class CharacterCombat : MonoBehaviour
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+    PlayerStats playerStats;
+
     private void Awake()
     {
-        damageDealt = GetComponent<PlayerStats>().attackDamage;
+        playerStats = GetComponent<PlayerStats>();
+        damageDealt = playerStats.attackDamage;
     }
 
     // Update is called once per frame
@@ -32,8 +35,11 @@ public class CharacterCombat : MonoBehaviour
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
-        
 
+        if (Input.GetButtonDown("Fire2"))
+        {
+            playerStats.TakeDamage(10);
+        }
     }
 
     void Attack()

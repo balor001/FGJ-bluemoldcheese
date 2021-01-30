@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 0e790fe6c23e1f649a2dd70c50119e2c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7195518525651433764
+    second: background_hills2_0
+  - first:
+      213: 5962304801556882905
+    second: background_hills2_1
+  - first:
+      213: -8155212165622602771
+    second: background_hills2_2
+  - first:
+      213: 5206761474519909185
+    second: background_hills2_3
+  - first:
+      213: -7951347492541976836
+    second: background_hills2_4
+  - first:
+      213: 1889478538982824249
+    second: background_hills2_5
+  - first:
+      213: -4354497300990571540
+    second: background_hills2_6
+  - first:
+      213: 9168909645218723189
+    second: background_hills2_7
+  - first:
+      213: -1514736663255220910
+    second: background_hills2_8
+  - first:
+      213: 2880957113893661733
+    second: background_hills2_9
+  - first:
+      213: 6813932943074354359
+    second: background_hills2_10
+  - first:
+      213: -8876987376512662290
+    second: background_hills2_11
+  - first:
+      213: -7511458462916460316
+    second: background_hills2_12
+  - first:
+      213: 3271841697130883224
+    second: background_hills2_13
+  - first:
+      213: -7363231289558050664
+    second: background_hills2_14
+  - first:
+      213: -6572270638772508089
+    second: background_hills2_15
+  - first:
+      213: -8213886341685366235
+    second: background_hills2_16
+  - first:
+      213: -2727271342550626351
+    second: background_hills2_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +94,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +118,43 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +163,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: background_hills2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293230c9fd9bd360800000000000000
+      internalID: 7195518525651433764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background_hills2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5676b90ac5eb250800000000000000
+      internalID: 5962304801556882905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background_hills2_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 159
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3ee185ebdd2de80800000000000000
+      internalID: -8155212165622602771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
