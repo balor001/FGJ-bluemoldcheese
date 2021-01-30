@@ -139,6 +139,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 1474786746380026935}
   m_CeilingCheck: {fileID: 1474786746602537877}
   m_CrouchDisableCollider: {fileID: 1474786745007665997}
+  m_Grounded: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -158,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 1474786745007665996}
-  animator: {fileID: 0}
+  animator: {fileID: 1181395798453350899}
   runSpeed: 40
 --- !u!61 &1474786745007665997
 BoxCollider2D:
@@ -173,7 +174,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.20400435}
+  m_Offset: {x: 0.000000014901161, y: 0.073515356}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -184,7 +185,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.81552804, y: 0.5919913}
+  m_Size: {x: 0.74499345, y: 0.8529693}
   m_EdgeRadius: 0
 --- !u!58 &1474786745007665994
 CircleCollider2D:
@@ -214,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517637a9fc94ca54d90eb4e13f8e0f7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 1181395798453350899}
   attackPoint: {fileID: 249995090}
   attackRange: 0.6
   enemyLayers:
@@ -352,7 +353,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1784835242474103251, guid: d42eae7e03a5e894c9b83db46b0e75ba,
+  m_Sprite: {fileID: 3047885008334822392, guid: d42eae7e03a5e894c9b83db46b0e75ba,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

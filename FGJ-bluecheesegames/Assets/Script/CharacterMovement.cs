@@ -20,13 +20,26 @@ public class CharacterMovement : MonoBehaviour
     private void Update()
 
     {
+
+        if (!characterController.m_Grounded)
+        {
+            if (!animator.GetBool("InAir"))
+            {
+            animator.SetBool("InAir", true);
+            animator.SetTrigger("Jump");
+            }
+        }
+        else animator.SetBool("InAir", false);
+        
+        
         horizontalInput = Input.GetAxisRaw("Horizontal");
         animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
 
         if (Input.GetButtonDown("Jump"))
         {
-            jump = true;
+            jump = true; 
         }
+        
     }
 
     private void FixedUpdate()
