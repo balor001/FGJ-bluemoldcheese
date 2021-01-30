@@ -7,7 +7,7 @@ public class CharacterCombat : MonoBehaviour
     public Animator animator;
 
     public Transform attackPoint;
-    public float attackRange = 0.5f;
+    public float attackRange = 0.6f;
     public LayerMask enemyLayers;
     int damageDealt;
 
@@ -24,9 +24,11 @@ public class CharacterCombat : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
+            
             if (Input.GetButtonDown("Fire1"))
             {
                 Attack();
+
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }

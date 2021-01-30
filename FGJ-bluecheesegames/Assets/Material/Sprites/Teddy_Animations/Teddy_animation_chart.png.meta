@@ -4,73 +4,76 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -5932863044942717990
-    second: Teddy_animation_chart_0
+    second: Teddy_animation_shwing_0
   - first:
       213: 9187940954121876952
-    second: Teddy_animation_chart_1
+    second: Teddy_animation_shwing_1
   - first:
       213: 9170220876602977720
-    second: Teddy_animation_chart_2
+    second: Teddy_animation_shwing_2
   - first:
       213: 7837641467839250618
-    second: Teddy_animation_chart_3
+    second: Teddy_animation_shwing_3
   - first:
       213: 4780886560613138152
-    second: Teddy_animation_chart_4
+    second: Teddy_animation_shwing_4
   - first:
       213: -3184146104405056067
-    second: Teddy_animation_chart_5
+    second: Teddy_animation_shwing_5
+  - first:
+      213: -6598353316041099437
+    second: Teddy_animation_shwing_0
+  - first:
+      213: 8220642016644109058
+    second: Teddy_animation_shwing_1
+  - first:
+      213: 6163072567544542341
+    second: Teddy_animation_shwing_2
+  - first:
+      213: -3940097932982122005
+    second: Teddy_animation_shwing_3
+  - first:
+      213: -1270963801429546159
+    second: Teddy_animation_shwing_4
+  - first:
+      213: -1145118401745763021
+    second: Teddy_animation_shwing_5
+  - first:
+      213: 3996903220590737019
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 3047885008334822392
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 7012541966801353988
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 3367377391933927489
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 8381867080275021755
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 7514184224148384903
+    second: Teddy_animation_shwing_6
+  - first:
+      213: -83612526494641876
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 4720689260894489774
+    second: Teddy_animation_shwing_6
+  - first:
+      213: -3172625968575025463
+    second: Teddy_animation_shwing_6
+  - first:
+      213: 3649696278288422107
+    second: Teddy_animation_shwing_6
+  - first:
+      213: -7982459259041240826
+    second: Teddy_animation_shwing_6
   - first:
       213: -6598353316041099437
     second: Teddy_animation_chart_0
-  - first:
-      213: 8220642016644109058
-    second: Teddy_animation_chart_1
-  - first:
-      213: 6163072567544542341
-    second: Teddy_animation_chart_2
-  - first:
-      213: -3940097932982122005
-    second: Teddy_animation_chart_3
-  - first:
-      213: -1270963801429546159
-    second: Teddy_animation_chart_4
-  - first:
-      213: -1145118401745763021
-    second: Teddy_animation_chart_5
-  - first:
-      213: 3996903220590737019
-    second: Teddy_animation_chart_6
-  - first:
-      213: 3047885008334822392
-    second: Teddy_animation_chart_6
-  - first:
-      213: 7012541966801353988
-    second: Teddy_animation_chart_6
-  - first:
-      213: 3367377391933927489
-    second: Teddy_animation_chart_6
-  - first:
-      213: 8381867080275021755
-    second: Teddy_animation_chart_6
-  - first:
-      213: 7514184224148384903
-    second: Teddy_animation_chart_6
-  - first:
-      213: -83612526494641876
-    second: Teddy_animation_chart_6
-  - first:
-      213: 4720689260894489774
-    second: Teddy_animation_chart_6
-  - first:
-      213: -3172625968575025463
-    second: Teddy_animation_chart_6
-  - first:
-      213: 3649696278288422107
-    second: Teddy_animation_chart_6
-  - first:
-      213: -7982459259041240826
-    second: Teddy_animation_chart_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 14, y: 76, z: 599, w: 6}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -164,18 +167,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Teddy_animation_chart_0
+      name: Teddy_animation_shwing_0
       rect:
         serializedVersion: 2
         x: 14
         y: 148
         width: 27
         height: 46
-      alignment: 9
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -189,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_1
+      name: Teddy_animation_shwing_1
       rect:
         serializedVersion: 2
         x: 60
@@ -197,7 +212,7 @@ TextureImporter:
         width: 34
         height: 41
       alignment: 9
-      pivot: {x: 0.20588236, y: 0}
+      pivot: {x: 0.21, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,14 +225,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_2
+      name: Teddy_animation_shwing_2
       rect:
         serializedVersion: 2
         x: 109
         y: 148
         width: 46
         height: 44
-      alignment: 9
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -231,14 +246,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_3
+      name: Teddy_animation_shwing_3
       rect:
         serializedVersion: 2
         x: 159
         y: 148
         width: 55
         height: 39
-      alignment: 9
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -252,14 +267,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_4
+      name: Teddy_animation_shwing_4
       rect:
         serializedVersion: 2
-        x: 222
-        y: 147
-        width: 56
-        height: 40
-      alignment: 9
+        x: 223
+        y: 148
+        width: 55
+        height: 39
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -273,14 +288,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_5
+      name: Teddy_animation_shwing_5
       rect:
         serializedVersion: 2
         x: 286
         y: 148
         width: 31
         height: 41
-      alignment: 9
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -294,14 +309,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_7
+      name: Teddy_animation_idle_0
       rect:
         serializedVersion: 2
         x: 14
         y: 88
         width: 27
         height: 46
-      alignment: 9
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -315,14 +330,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_8
+      name: Teddy_animation_idle_1
       rect:
         serializedVersion: 2
         x: 52
         y: 88
         width: 27
         height: 45
-      alignment: 9
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -336,15 +351,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_9
+      name: Teddy_animation_run_0
       rect:
         serializedVersion: 2
         x: 7
         y: 29
         width: 34
         height: 41
-      alignment: 9
-      pivot: {x: 0.1764706, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,15 +372,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_10
+      name: Teddy_animation_run_1
       rect:
         serializedVersion: 2
         x: 47
         y: 29
         width: 32
         height: 41
-      alignment: 9
-      pivot: {x: 0.1875, y: -0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,15 +393,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_11
+      name: Teddy_animation_run_2
       rect:
         serializedVersion: 2
         x: 87
         y: 29
         width: 34
         height: 41
-      alignment: 9
-      pivot: {x: 0.1764706, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,15 +414,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_12
+      name: Teddy_animation_run_3
       rect:
         serializedVersion: 2
         x: 121
         y: 29
         width: 32
         height: 41
-      alignment: 9
-      pivot: {x: 0.1875, y: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,11 +435,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_6
+      name: Teddy_animation_shwing_6
       rect:
         serializedVersion: 2
-        x: 334
-        y: 149
+        x: 333
+        y: 148
         width: 27
         height: 46
       alignment: 6
