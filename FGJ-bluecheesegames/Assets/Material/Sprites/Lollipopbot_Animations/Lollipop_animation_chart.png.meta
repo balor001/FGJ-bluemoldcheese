@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 8e8da21d7fa69074aa949fc5140e1dbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1386261412798687391
+    second: Lollipop_animation_chart_0
+  - first:
+      213: -8017439732259318736
+    second: Lollipop_animation_chart_1
+  - first:
+      213: 8065861933398804449
+    second: Lollipop_animation_chart_2
+  - first:
+      213: -3490714600780515433
+    second: Lollipop_animation_chart_3
+  - first:
+      213: 5939275775125320001
+    second: Lollipopbot_Attack1
+  - first:
+      213: -9108451223868383314
+    second: Lollipopbot_Attack2
+  - first:
+      213: -6206338186311699466
+    second: Lollipopbot_Attack3
+  - first:
+      213: 8689638753416163016
+    second: Lollipopbot_Attack4
+  - first:
+      213: -200567396272958383
+    second: Lollipopbot_Attack5
+  - first:
+      213: 2298414706246725258
+    second: Lollipopbot_Attack6
+  - first:
+      213: -295753368030375358
+    second: Lollipopbot_Attack7
+  - first:
+      213: -1751244437554305276
+    second: Lollipopbot_Attack8
+  - first:
+      213: 8357349670941026997
+    second: Lollipop_animation_chart_12
+  - first:
+      213: 3557773792942217113
+    second: Lollipop_animation_chart_13
+  - first:
+      213: -6161117958988206813
+    second: Lollipop_animation_chart_14
+  - first:
+      213: 8864095173802158384
+    second: Lollipop_animation_chart_15
+  - first:
+      213: -1850704907127576216
+    second: Lollipopbot_Idle1
+  - first:
+      213: -7610701187892537536
+    second: Lollipopbot_Idle2
+  - first:
+      213: 4858065994151301832
+    second: Lollipopbot_Walk1
+  - first:
+      213: 3562117456587482349
+    second: Lollipopbot_Walk2
+  - first:
+      213: -1411245549821433548
+    second: Lollipopbot_Walk3
+  - first:
+      213: -7130121434742372167
+    second: Lollipopbot_Walk4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lollipopbot_Attack1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 488
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1417d6f89db8c6250800000000000000
+      internalID: 5939275775125320001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 488
+        width: 20
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf5a5bded7489180800000000000000
+      internalID: -9108451223868383314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 488
+        width: 41
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3f2f85d48aed9a0800000000000000
+      internalID: -6206338186311699466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 488
+        width: 51
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cea6d3186cc79870800000000000000
+      internalID: 8689638753416163016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 488
+        width: 51
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15410a70401773df0800000000000000
+      internalID: -200567396272958383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 488
+        width: 51
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8eae507ffb95ef10800000000000000
+      internalID: 2298414706246725258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 488
+        width: 20
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2429c65f0e545ebf0800000000000000
+      internalID: -295753368030375358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Attack8
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 488
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40762b8667452b7e0800000000000000
+      internalID: -1751244437554305276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Idle1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 437
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869a69241b9f056e0800000000000000
+      internalID: -1850704907127576216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Idle2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 437
+        width: 30
+        height: 41
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0479504c79b516690800000000000000
+      internalID: -7610701187892537536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Walk1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 383
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c21bc458415b6340800000000000000
+      internalID: 4858065994151301832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Walk2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 383
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de46d1034fe2f6130800000000000000
+      internalID: 3562117456587482349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Walk3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 383
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439ea0846af3a6ce0800000000000000
+      internalID: -1411245549821433548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lollipopbot_Walk4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 382
+        width: 30
+        height: 42
+      alignment: 9
+      pivot: {x: 0.36666667, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b848c40558bc0d90800000000000000
+      internalID: -7130121434742372167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
