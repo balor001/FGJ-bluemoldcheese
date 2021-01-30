@@ -74,6 +74,141 @@ TextureImporter:
   - first:
       213: -6598353316041099437
     second: Teddy_animation_chart_0
+  - first:
+      213: 8220642016644109058
+    second: Teddy_animation_chart_1
+  - first:
+      213: 6163072567544542341
+    second: Teddy_animation_chart_2
+  - first:
+      213: -3940097932982122005
+    second: Teddy_animation_chart_3
+  - first:
+      213: -1270963801429546159
+    second: Teddy_animation_chart_4
+  - first:
+      213: -1145118401745763021
+    second: Teddy_animation_chart_5
+  - first:
+      213: -83612526494641876
+    second: Teddy_animation_chart_6
+  - first:
+      213: 3047885008334822392
+    second: Teddy_animation_chart_7
+  - first:
+      213: 7012541966801353988
+    second: Teddy_animation_chart_8
+  - first:
+      213: 3367377391933927489
+    second: Teddy_animation_chart_9
+  - first:
+      213: 8381867080275021755
+    second: Teddy_animation_chart_10
+  - first:
+      213: 7514184224148384903
+    second: Teddy_animation_chart_11
+  - first:
+      213: -7982459259041240826
+    second: Teddy_animation_chart_12
+  - first:
+      213: -81415055561987443
+    second: Teddy_animation_chart_13
+  - first:
+      213: -5286714091448563705
+    second: Teddy_animation_chart_14
+  - first:
+      213: -2482712786950916765
+    second: Teddy_animation_chart_15
+  - first:
+      213: -1108074820180402707
+    second: Teddy_animation_chart_16
+  - first:
+      213: -5659439853415347134
+    second: Teddy_animation_chart_17
+  - first:
+      213: -2107370852532217961
+    second: Teddy_animation_chart_18
+  - first:
+      213: -7630532502089063100
+    second: Teddy_animation_chart_19
+  - first:
+      213: -4922320478686461117
+    second: Teddy_animation_chart_20
+  - first:
+      213: -2883024316814851743
+    second: Teddy_animation_chart_21
+  - first:
+      213: -1318421928913196452
+    second: Teddy_animation_chart_22
+  - first:
+      213: -5932863044942717990
+    second: Teddy_animation_chart_0
+  - first:
+      213: 9187940954121876952
+    second: Teddy_animation_chart_1
+  - first:
+      213: 9170220876602977720
+    second: Teddy_animation_chart_2
+  - first:
+      213: 7837641467839250618
+    second: Teddy_animation_chart_3
+  - first:
+      213: 4780886560613138152
+    second: Teddy_animation_chart_4
+  - first:
+      213: -3184146104405056067
+    second: Teddy_animation_chart_5
+  - first:
+      213: 3996903220590737019
+    second: Teddy_animation_chart_6
+  - first:
+      213: 4720689260894489774
+    second: Teddy_animation_chart_7
+  - first:
+      213: -3172625968575025463
+    second: Teddy_animation_chart_8
+  - first:
+      213: 3649696278288422107
+    second: Teddy_animation_chart_9
+  - first:
+      213: 7446712730179757413
+    second: Teddy_animation_chart_10
+  - first:
+      213: -3322090643418509753
+    second: Teddy_animation_chart_11
+  - first:
+      213: 4363081348529373856
+    second: Teddy_animation_chart_12
+  - first:
+      213: 8517106339916775677
+    second: Teddy_animation_chart_13
+  - first:
+      213: 7438821465468524378
+    second: Teddy_animation_chart_14
+  - first:
+      213: -4794266050368378114
+    second: Teddy_animation_chart_15
+  - first:
+      213: 6045425626407976365
+    second: Teddy_animation_chart_16
+  - first:
+      213: 1025166371087459529
+    second: Teddy_animation_chart_17
+  - first:
+      213: 4259828220385944908
+    second: Teddy_animation_chart_18
+  - first:
+      213: 2480589858063240882
+    second: Teddy_animation_chart_19
+  - first:
+      213: -4976173164043672617
+    second: Teddy_animation_chart_20
+  - first:
+      213: -4612808820696164796
+    second: Teddy_animation_chart_21
+  - first:
+      213: -3530930029313624605
+    second: Teddy_animation_chart_22
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -183,11 +318,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Teddy_animation_shwing_0
+      name: Teddy_animation_chart_0
       rect:
         serializedVersion: 2
         x: 14
-        y: 148
+        y: 588
         width: 27
         height: 46
       alignment: 6
@@ -197,39 +332,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35779de5e90fd64a0800000000000000
-      internalID: -6598353316041099437
+      spriteID: adb95298e7c3aada0800000000000000
+      internalID: -5932863044942717990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_shwing_1
+      name: Teddy_animation_chart_1
       rect:
         serializedVersion: 2
         x: 60
-        y: 148
+        y: 588
         width: 34
         height: 41
       alignment: 9
-      pivot: {x: 0.21, y: 0}
+      pivot: {x: 0.20588236, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20319bbfb56951270800000000000000
-      internalID: 8220642016644109058
+      spriteID: 8d5b2b33e9f128f70800000000000000
+      internalID: 9187940954121876952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_shwing_2
+      name: Teddy_animation_chart_2
       rect:
         serializedVersion: 2
         x: 109
-        y: 148
+        y: 588
         width: 46
         height: 44
       alignment: 6
@@ -239,18 +374,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5847279c8d1a78550800000000000000
-      internalID: 6163072567544542341
+      spriteID: 8bdaac52d4b234f70800000000000000
+      internalID: 9170220876602977720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_shwing_3
+      name: Teddy_animation_chart_3
       rect:
         serializedVersion: 2
         x: 159
-        y: 148
+        y: 588
         width: 55
         height: 39
       alignment: 6
@@ -260,18 +395,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be989543ec5f159c0800000000000000
-      internalID: -3940097932982122005
+      spriteID: ab00e6fa365e4cc60800000000000000
+      internalID: 7837641467839250618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_shwing_4
+      name: Teddy_animation_chart_4
       rect:
         serializedVersion: 2
         x: 223
-        y: 148
+        y: 588
         width: 55
         height: 39
       alignment: 6
@@ -281,18 +416,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15b696d0821ac5ee0800000000000000
-      internalID: -1270963801429546159
+      spriteID: 8eef8c42ffe195240800000000000000
+      internalID: 4780886560613138152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_shwing_5
+      name: Teddy_animation_chart_5
       rect:
         serializedVersion: 2
         x: 286
-        y: 148
+        y: 588
         width: 31
         height: 41
       alignment: 6
@@ -302,18 +437,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3354e2671e8bb10f0800000000000000
-      internalID: -1145118401745763021
+      spriteID: db52ef50df3afc3d0800000000000000
+      internalID: -3184146104405056067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_idle_0
+      name: Teddy_animation_chart_6
       rect:
         serializedVersion: 2
-        x: 14
-        y: 88
+        x: 333
+        y: 588
         width: 27
         height: 46
       alignment: 6
@@ -323,20 +458,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c219383a9d2f6def0800000000000000
-      internalID: -83612526494641876
+      spriteID: b76fce87d4ad77730800000000000000
+      internalID: 3996903220590737019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_idle_1
+      name: Teddy_animation_chart_7
       rect:
         serializedVersion: 2
-        x: 52
-        y: 88
+        x: 14
+        y: 528
         width: 27
-        height: 45
+        height: 46
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,13 +486,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_run_0
+      name: Teddy_animation_chart_8
       rect:
         serializedVersion: 2
-        x: 7
-        y: 29
-        width: 34
-        height: 41
+        x: 52
+        y: 528
+        width: 27
+        height: 45
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,15 +507,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_run_1
+      name: Teddy_animation_chart_9
       rect:
         serializedVersion: 2
-        x: 47
-        y: 29
-        width: 32
+        x: 7
+        y: 469
+        width: 34
         height: 41
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.20588236, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -393,55 +528,181 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_run_2
+      name: Teddy_animation_chart_10
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 469
+        width: 32
+        height: 41
+      alignment: 9
+      pivot: {x: 0.21875, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5656eb216c9085760800000000000000
+      internalID: 7446712730179757413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_11
       rect:
         serializedVersion: 2
         x: 87
-        y: 29
+        y: 469
         width: 34
         height: 41
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.20588236, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbf455253bf525470800000000000000
-      internalID: 8381867080275021755
+      spriteID: 74e0467392095e1d0800000000000000
+      internalID: -3322090643418509753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_run_3
+      name: Teddy_animation_chart_12
       rect:
         serializedVersion: 2
         x: 121
-        y: 29
+        y: 468
         width: 32
-        height: 41
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        height: 42
+      alignment: 9
+      pivot: {x: 0.21875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c65317dbeb74860800000000000000
-      internalID: 7514184224148384903
+      spriteID: 0a2c931be57cc8c30800000000000000
+      internalID: 4363081348529373856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_shwing_6
+      name: Teddy_animation_chart_13
       rect:
         serializedVersion: 2
-        x: 333
-        y: 148
-        width: 27
-        height: 46
+        x: 13
+        y: 421
+        width: 28
+        height: 44
+      alignment: 9
+      pivot: {x: 0.035714287, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df087f03717d23670800000000000000
+      internalID: 8517106339916775677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_14
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 422
+        width: 28
+        height: 44
+      alignment: 9
+      pivot: {x: 0.035714287, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575dc4d5b00c3760800000000000000
+      internalID: 7438821465468524378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 421
+        width: 26
+        height: 43
+      alignment: 9
+      pivot: {x: 0.11538462, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efae315ad68577db0800000000000000
+      internalID: -4794266050368378114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 370
+        width: 28
+        height: 44
+      alignment: 9
+      pivot: {x: 0.035714287, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad3712c39aa5e350800000000000000
+      internalID: 6045425626407976365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_17
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 370
+        width: 35
+        height: 39
+      alignment: 9
+      pivot: {x: 0.23529412, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c42858026f1a3e00800000000000000
+      internalID: 1025166371087459529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 370
+        width: 43
+        height: 42
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,8 +710,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 609a1d6c89b983190800000000000000
-      internalID: -7982459259041240826
+      spriteID: c45e9486233fd1b30800000000000000
+      internalID: 4259828220385944908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 370
+        width: 52
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2becb4b4553dc6220800000000000000
+      internalID: 2480589858063240882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 370
+        width: 52
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d368584fd411fab0800000000000000
+      internalID: -4976173164043672617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 370
+        width: 30
+        height: 39
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446dd9931d20cffb0800000000000000
+      internalID: -4612808820696164796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Teddy_animation_chart_22
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 370
+        width: 28
+        height: 44
+      alignment: 9
+      pivot: {x: 0.035714287, y: -0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5700498dd9ffec0800000000000000
+      internalID: -3530930029313624605
       vertices: []
       indices: 
       edges: []
