@@ -38,7 +38,7 @@ public class CharacterCombat : MonoBehaviour
 
         if (Input.GetButtonDown("Fire2"))
         {
-            playerStats.TakeDamage(10);
+            playerStats.TakeDamage(5);
         }
     }
 

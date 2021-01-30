@@ -28,8 +28,9 @@ public class CharacterStats : MonoBehaviour
 
     public void TakeDamage (int damage)
     {
-        animator.SetTrigger("Hurt");
-        damage -= armor.GetValue();
+        //animator.SetTrigger("Hurt");
+        //damage -= armor.GetValue();
+        Debug.Log(transform.name + " took " + damage + " amount of damage");
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
         currentHealth -= damage;
@@ -43,12 +44,11 @@ public class CharacterStats : MonoBehaviour
         {
             healthBar.SetHealth(currentHealth);
         }
-        else return;
     }
 
     public virtual void Die()
     {
-        animator.SetBool("IsDead", true);
+        //animator.SetBool("IsDead", true);
         Debug.Log(transform.name + " died");
 
         this.enabled = false;
