@@ -97,7 +97,7 @@ TextureImporter:
     second: Teddy_Idle1
   - first:
       213: 7012541966801353988
-    second: Teddy_animation_chart_8
+    second: TeddyIdle2
   - first:
       213: 3367377391933927489
     second: Teddy_Walk1
@@ -166,7 +166,7 @@ TextureImporter:
     second: Teddy_Idle1
   - first:
       213: -3172625968575025463
-    second: Teddy_animation_chart_8
+    second: TeddyIdle2
   - first:
       213: 3649696278288422107
     second: Teddy_Walk1
@@ -209,6 +209,102 @@ TextureImporter:
   - first:
       213: -3530930029313624605
     second: Teddy_Jumpswing7
+  - first:
+      213: 4720689260894489774
+    second: TeddyIdle1
+  - first:
+      213: 3649696278288422107
+    second: TeddyWalk1
+  - first:
+      213: 7446712730179757413
+    second: TeddyWalk2
+  - first:
+      213: -3322090643418509753
+    second: TeddyWalk3
+  - first:
+      213: 4363081348529373856
+    second: TeddyWalk4
+  - first:
+      213: 8517106339916775677
+    second: TeddyJump1
+  - first:
+      213: 7438821465468524378
+    second: TeddyJump2
+  - first:
+      213: -4794266050368378114
+    second: TeddyLanding
+  - first:
+      213: 6045425626407976365
+    second: TeddyJumpAttack1
+  - first:
+      213: 1025166371087459529
+    second: TeddyJumpAttack2
+  - first:
+      213: 4259828220385944908
+    second: TeddyJumpAttack3
+  - first:
+      213: 2480589858063240882
+    second: TeddyJumpAttack4
+  - first:
+      213: -4976173164043672617
+    second: TeddyJumpAttack5
+  - first:
+      213: -4612808820696164796
+    second: TeddyJumpAttack6
+  - first:
+      213: -3530930029313624605
+    second: TeddyJumpAttack7
+  - first:
+      213: 620121154833322641
+    second: TeddyDeath1
+  - first:
+      213: -5932863044942717990
+    second: TeddyAttack1
+  - first:
+      213: 9187940954121876952
+    second: TeddyAttack2
+  - first:
+      213: 9170220876602977720
+    second: TeddyAttack3
+  - first:
+      213: 7837641467839250618
+    second: TeddyAttack4
+  - first:
+      213: 4780886560613138152
+    second: TeddyAttack5
+  - first:
+      213: -3184146104405056067
+    second: TeddyAttack6
+  - first:
+      213: 3996903220590737019
+    second: TeddyAttack7
+  - first:
+      213: 42184426056036369
+    second: TeddyDeath2
+  - first:
+      213: 5347053280966094708
+    second: TeddyDeath3
+  - first:
+      213: -6000563911680214421
+    second: TeddyDeath4
+  - first:
+      213: -8539490068990037288
+    second: TeddyDeath5
+  - first:
+      213: -6943131620303771687
+    second: TeddyDeath6
+  - first:
+      213: 4440370540786994450
+    second: TeddyDeath7
+  - first:
+      213: -8397826701668294147
+    second: TeddyDeath8
+  - first:
+      213: -401056372769344729
+    second: Teddy_animation_chart_31
+  - first:
+      213: 3047885008334822392
+    second: TeddyDeath9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -318,14 +414,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Teddy_attack1
+      name: TeddyAttack1
       rect:
         serializedVersion: 2
         x: 14
         y: 588
         width: 27
         height: 46
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -339,7 +435,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_attack2
+      name: TeddyAttack2
       rect:
         serializedVersion: 2
         x: 60
@@ -360,14 +456,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_attack3
+      name: TeddyAttack3
       rect:
         serializedVersion: 2
         x: 109
         y: 588
         width: 46
         height: 44
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -381,14 +477,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_attack4
+      name: TeddyAttack4
       rect:
         serializedVersion: 2
         x: 159
         y: 588
         width: 55
         height: 39
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -402,14 +498,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_attack5
+      name: TeddyAttack5
       rect:
         serializedVersion: 2
         x: 223
         y: 588
         width: 55
         height: 39
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -423,14 +519,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_attack6
+      name: TeddyAttack6
       rect:
         serializedVersion: 2
         x: 286
         y: 588
         width: 31
         height: 41
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -444,14 +540,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_attack7
+      name: TeddyAttack7
       rect:
         serializedVersion: 2
         x: 333
         y: 588
         width: 27
         height: 46
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -465,14 +561,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Idle1
+      name: TeddyIdle1
       rect:
         serializedVersion: 2
         x: 14
         y: 528
         width: 27
         height: 46
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -486,14 +582,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_8
+      name: TeddyIdle2
       rect:
         serializedVersion: 2
         x: 52
         y: 528
         width: 27
         height: 45
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -507,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Walk1
+      name: TeddyWalk1
       rect:
         serializedVersion: 2
         x: 7
@@ -515,7 +611,7 @@ TextureImporter:
         width: 34
         height: 41
       alignment: 9
-      pivot: {x: 0.20588236, y: 0}
+      pivot: {x: 0.1764706, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -528,7 +624,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Walk2
+      name: TeddyWalk2
       rect:
         serializedVersion: 2
         x: 47
@@ -536,7 +632,7 @@ TextureImporter:
         width: 32
         height: 41
       alignment: 9
-      pivot: {x: 0.21875, y: 0}
+      pivot: {x: 0.1875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -549,7 +645,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Walk3
+      name: TeddyWalk3
       rect:
         serializedVersion: 2
         x: 87
@@ -557,7 +653,7 @@ TextureImporter:
         width: 34
         height: 41
       alignment: 9
-      pivot: {x: 0.20588236, y: 0}
+      pivot: {x: 0.1764706, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -570,7 +666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Walk4
+      name: TeddyWalk4
       rect:
         serializedVersion: 2
         x: 121
@@ -578,7 +674,7 @@ TextureImporter:
         width: 32
         height: 42
       alignment: 9
-      pivot: {x: 0.21875, y: 0}
+      pivot: {x: 0.1875, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -591,7 +687,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jump1
+      name: TeddyJump1
       rect:
         serializedVersion: 2
         x: 13
@@ -612,7 +708,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jump2
+      name: TeddyJump2
       rect:
         serializedVersion: 2
         x: 50
@@ -633,7 +729,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Landing
+      name: TeddyLanding
       rect:
         serializedVersion: 2
         x: 81
@@ -641,7 +737,7 @@ TextureImporter:
         width: 26
         height: 43
       alignment: 9
-      pivot: {x: 0.11538462, y: -0}
+      pivot: {x: 0.03846154, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -654,7 +750,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing1
+      name: TeddyJumpAttack1
       rect:
         serializedVersion: 2
         x: 14
@@ -675,7 +771,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing2
+      name: TeddyJumpAttack2
       rect:
         serializedVersion: 2
         x: 60
@@ -683,7 +779,7 @@ TextureImporter:
         width: 35
         height: 39
       alignment: 9
-      pivot: {x: 0.23529412, y: -0}
+      pivot: {x: 0.22857143, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -696,14 +792,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing3
+      name: TeddyJumpAttack3
       rect:
         serializedVersion: 2
         x: 112
         y: 370
         width: 43
         height: 42
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -717,14 +813,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing4
+      name: TeddyJumpAttack4
       rect:
         serializedVersion: 2
         x: 162
         y: 370
         width: 52
         height: 37
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -738,14 +834,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing5
+      name: TeddyJumpAttack5
       rect:
         serializedVersion: 2
         x: 226
-        y: 371
+        y: 370
         width: 52
         height: 37
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -759,14 +855,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing6
+      name: TeddyJumpAttack6
       rect:
         serializedVersion: 2
         x: 287
         y: 370
         width: 30
         height: 39
-      alignment: 6
+      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -780,7 +876,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_Jumpswing7
+      name: TeddyJumpAttack7
       rect:
         serializedVersion: 2
         x: 333
@@ -796,6 +892,195 @@ TextureImporter:
       bones: []
       spriteID: 3e5700498dd9ffec0800000000000000
       internalID: -3530930029313624605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 318
+        width: 27
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1929b8f97ec1b9800800000000000000
+      internalID: 620121154833322641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 314
+        width: 37
+        height: 38
+      alignment: 9
+      pivot: {x: -0.1891892, y: 0.078947365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110bf12138ed59000800000000000000
+      internalID: 42184426056036369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 304
+        width: 41
+        height: 42
+      alignment: 9
+      pivot: {x: -0.07317073, y: 0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f221f01ac843a40800000000000000
+      internalID: 5347053280966094708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 313
+        width: 49
+        height: 27
+      alignment: 9
+      pivot: {x: 0.020408163, y: 0.14814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ab5482ae6b9bca0800000000000000
+      internalID: -6000563911680214421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 314
+        width: 42
+        height: 27
+      alignment: 9
+      pivot: {x: -0.14285715, y: 0.14814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d27fd2c603ad7980800000000000000
+      internalID: -8539490068990037288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 316
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: -0.92, y: 0.14814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7e20fd39a05af90800000000000000
+      internalID: -6943131620303771687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath7
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 316
+        width: 18
+        height: 27
+      alignment: 9
+      pivot: {x: -1.6666666, y: 0.14814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dc7b21b7d5f9d30800000000000000
+      internalID: 4440370540786994450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath8
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 317
+        width: 14
+        height: 27
+      alignment: 9
+      pivot: {x: -2.142857, y: 0.14814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df165c1cb1de47b80800000000000000
+      internalID: -8397826701668294147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TeddyDeath9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 282
+        width: 14
+        height: 27
+      alignment: 9
+      pivot: {x: -2.142857, y: 0.14814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb190644434c4a20800000000000000
+      internalID: 3047885008334822392
       vertices: []
       indices: 
       edges: []
