@@ -45,7 +45,7 @@ public class CharacterCombat : MonoBehaviour
     void Attack()
     {
         animator.SetTrigger("Attack"); // Play animation
-
+        FindObjectOfType<AudioManager>().Play("player_attack");
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers); // deteck enemies in range
 
         // Damage
@@ -53,6 +53,7 @@ public class CharacterCombat : MonoBehaviour
         {
             Debug.Log("We hit" + enemy.name);
             enemy.GetComponent<EnemyStats>().TakeDamage(damageDealt);
+            FindObjectOfType<AudioManager>().Play("enemy_hurt");
         }
     }
 

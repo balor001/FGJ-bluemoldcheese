@@ -32,12 +32,13 @@ public class Enemy_AI : MonoBehaviour
     {
         //animator.SetTrigger("Attack"); // Play animation
         Collider2D colInfo = Physics2D.OverlapBox(attackPoint.position, attackRange, playerLayer); // hit enemies in range
-
+        FindObjectOfType<AudioManager>().Play("enemy_attack");
         // Damage
         if (colInfo != null)
         {
             Debug.Log(name + " hit" + colInfo.name);
             colInfo.GetComponent<PlayerStats>().TakeDamage(attackDamage);
+            FindObjectOfType<AudioManager>().Play("player_hurt");
         }
 
     }
