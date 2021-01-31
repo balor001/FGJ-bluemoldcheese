@@ -19,7 +19,7 @@ public class Enemy_Run : StateMachineBehaviour
     Rigidbody2D rb;
     Enemy_Turner turner;
     Pathing pathing;
-
+    CharacterStats characterStats;
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -27,6 +27,7 @@ public class Enemy_Run : StateMachineBehaviour
         rb = animator.GetComponent<Rigidbody2D>();
         turner = animator.GetComponent<Enemy_Turner>();
         pathing = animator.GetComponent<Pathing>();
+        characterStats = animator.GetComponent<CharacterStats>();
         thisTransform = animator.transform;
 
     }
@@ -34,7 +35,7 @@ public class Enemy_Run : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (pathing.path == null)
+        if (pathing.path == null || characterStats.Died)
         {
             return;
         }

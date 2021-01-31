@@ -14,6 +14,7 @@ public class CharacterStats : MonoBehaviour
     public Stat damage;
     public Stat armor;
 
+    public bool Died = false;
 
     private void Start()
     {
@@ -51,7 +52,18 @@ public class CharacterStats : MonoBehaviour
         animator.SetTrigger("Died");
         Debug.Log(transform.name + " died");
 
+        Died = true;
         this.enabled = false;
         GetComponent<Collider2D>().enabled = false;
+    }
+
+    // Killbox
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Killbox")
+        {
+            Debug.Log("Died");
+            Die();
+        }
     }
 }

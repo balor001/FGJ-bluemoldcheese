@@ -39,7 +39,6 @@ public class Enemy_AI : MonoBehaviour
             Debug.Log(name + " hit" + colInfo.name);
             colInfo.GetComponent<PlayerStats>().TakeDamage(attackDamage);
         }
-
     }
 
     private void OnDrawGizmosSelected()
