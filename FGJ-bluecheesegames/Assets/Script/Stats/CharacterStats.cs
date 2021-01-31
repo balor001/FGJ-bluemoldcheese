@@ -9,7 +9,7 @@ public class CharacterStats : MonoBehaviour
     public int maxHealth = 100;
     public UI_HealthBar healthBar;
     public int attackDamage = 10;
-    public Animator animator;
+    //public Animator animator;
 
     public Stat damage;
     public Stat armor;
