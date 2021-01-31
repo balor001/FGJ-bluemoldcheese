@@ -67,7 +67,7 @@ public class AudioManager : MonoBehaviour
 	//sets the master volume by applying it's multiplier between 0-1 to both of the 
 	public void SetMasterVolume(float newMasterVolume){
 		//sets the multiplier for all other volumes and then calls their functions to set themselves
-		masterVolume = 1;
+		masterVolume = newMasterVolume;
 		SetMusicVolume(musicVolume);
 		SetSFXVolume(SFXVolume);
 	}
