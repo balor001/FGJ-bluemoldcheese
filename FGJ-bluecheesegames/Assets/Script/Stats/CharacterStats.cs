@@ -54,7 +54,8 @@ public class CharacterStats : MonoBehaviour
 
         Died = true;
         this.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
+        //GetComponent<Collider2D>().enabled = false;
+        
     }
 
     // Killbox
