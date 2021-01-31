@@ -73,142 +73,142 @@ TextureImporter:
     second: Teddy_animation_shwing_6
   - first:
       213: -6598353316041099437
-    second: Teddy_animation_chart_0
+    second: Teddy_attack1
   - first:
       213: 8220642016644109058
-    second: Teddy_animation_chart_1
+    second: Teddy_attack2
   - first:
       213: 6163072567544542341
-    second: Teddy_animation_chart_2
+    second: Teddy_attack3
   - first:
       213: -3940097932982122005
-    second: Teddy_animation_chart_3
+    second: Teddy_attack4
   - first:
       213: -1270963801429546159
-    second: Teddy_animation_chart_4
+    second: Teddy_attack5
   - first:
       213: -1145118401745763021
-    second: Teddy_animation_chart_5
+    second: Teddy_attack6
   - first:
       213: -83612526494641876
-    second: Teddy_animation_chart_6
+    second: Teddy_attack7
   - first:
       213: 3047885008334822392
-    second: Teddy_animation_chart_7
+    second: Teddy_Idle1
   - first:
       213: 7012541966801353988
     second: Teddy_animation_chart_8
   - first:
       213: 3367377391933927489
-    second: Teddy_animation_chart_9
+    second: Teddy_Walk1
   - first:
       213: 8381867080275021755
-    second: Teddy_animation_chart_10
+    second: Teddy_Walk2
   - first:
       213: 7514184224148384903
-    second: Teddy_animation_chart_11
+    second: Teddy_Walk3
   - first:
       213: -7982459259041240826
-    second: Teddy_animation_chart_12
+    second: Teddy_Walk4
   - first:
       213: -81415055561987443
-    second: Teddy_animation_chart_13
+    second: Teddy_Jump1
   - first:
       213: -5286714091448563705
-    second: Teddy_animation_chart_14
+    second: Teddy_Jump2
   - first:
       213: -2482712786950916765
-    second: Teddy_animation_chart_15
+    second: Teddy_Landing
   - first:
       213: -1108074820180402707
-    second: Teddy_animation_chart_16
+    second: Teddy_Jumpswing1
   - first:
       213: -5659439853415347134
-    second: Teddy_animation_chart_17
+    second: Teddy_Jumpswing2
   - first:
       213: -2107370852532217961
-    second: Teddy_animation_chart_18
+    second: Teddy_Jumpswing3
   - first:
       213: -7630532502089063100
-    second: Teddy_animation_chart_19
+    second: Teddy_Jumpswing4
   - first:
       213: -4922320478686461117
-    second: Teddy_animation_chart_20
+    second: Teddy_Jumpswing5
   - first:
       213: -2883024316814851743
-    second: Teddy_animation_chart_21
+    second: Teddy_Jumpswing6
   - first:
       213: -1318421928913196452
-    second: Teddy_animation_chart_22
+    second: Teddy_Jumpswing7
   - first:
       213: -5932863044942717990
-    second: Teddy_animation_chart_0
+    second: Teddy_attack1
   - first:
       213: 9187940954121876952
-    second: Teddy_animation_chart_1
+    second: Teddy_attack2
   - first:
       213: 9170220876602977720
-    second: Teddy_animation_chart_2
+    second: Teddy_attack3
   - first:
       213: 7837641467839250618
-    second: Teddy_animation_chart_3
+    second: Teddy_attack4
   - first:
       213: 4780886560613138152
-    second: Teddy_animation_chart_4
+    second: Teddy_attack5
   - first:
       213: -3184146104405056067
-    second: Teddy_animation_chart_5
+    second: Teddy_attack6
   - first:
       213: 3996903220590737019
-    second: Teddy_animation_chart_6
+    second: Teddy_attack7
   - first:
       213: 4720689260894489774
-    second: Teddy_animation_chart_7
+    second: Teddy_Idle1
   - first:
       213: -3172625968575025463
     second: Teddy_animation_chart_8
   - first:
       213: 3649696278288422107
-    second: Teddy_animation_chart_9
+    second: Teddy_Walk1
   - first:
       213: 7446712730179757413
-    second: Teddy_animation_chart_10
+    second: Teddy_Walk2
   - first:
       213: -3322090643418509753
-    second: Teddy_animation_chart_11
+    second: Teddy_Walk3
   - first:
       213: 4363081348529373856
-    second: Teddy_animation_chart_12
+    second: Teddy_Walk4
   - first:
       213: 8517106339916775677
-    second: Teddy_animation_chart_13
+    second: Teddy_Jump1
   - first:
       213: 7438821465468524378
-    second: Teddy_animation_chart_14
+    second: Teddy_Jump2
   - first:
       213: -4794266050368378114
-    second: Teddy_animation_chart_15
+    second: Teddy_Landing
   - first:
       213: 6045425626407976365
-    second: Teddy_animation_chart_16
+    second: Teddy_Jumpswing1
   - first:
       213: 1025166371087459529
-    second: Teddy_animation_chart_17
+    second: Teddy_Jumpswing2
   - first:
       213: 4259828220385944908
-    second: Teddy_animation_chart_18
+    second: Teddy_Jumpswing3
   - first:
       213: 2480589858063240882
-    second: Teddy_animation_chart_19
+    second: Teddy_Jumpswing4
   - first:
       213: -4976173164043672617
-    second: Teddy_animation_chart_20
+    second: Teddy_Jumpswing5
   - first:
       213: -4612808820696164796
-    second: Teddy_animation_chart_21
+    second: Teddy_Jumpswing6
   - first:
       213: -3530930029313624605
-    second: Teddy_animation_chart_22
+    second: Teddy_Jumpswing7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -318,7 +318,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Teddy_animation_chart_0
+      name: Teddy_attack1
       rect:
         serializedVersion: 2
         x: 14
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_1
+      name: Teddy_attack2
       rect:
         serializedVersion: 2
         x: 60
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_2
+      name: Teddy_attack3
       rect:
         serializedVersion: 2
         x: 109
@@ -381,7 +381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_3
+      name: Teddy_attack4
       rect:
         serializedVersion: 2
         x: 159
@@ -402,7 +402,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_4
+      name: Teddy_attack5
       rect:
         serializedVersion: 2
         x: 223
@@ -423,7 +423,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_5
+      name: Teddy_attack6
       rect:
         serializedVersion: 2
         x: 286
@@ -444,7 +444,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_6
+      name: Teddy_attack7
       rect:
         serializedVersion: 2
         x: 333
@@ -465,7 +465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_7
+      name: Teddy_Idle1
       rect:
         serializedVersion: 2
         x: 14
@@ -507,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_9
+      name: Teddy_Walk1
       rect:
         serializedVersion: 2
         x: 7
@@ -528,7 +528,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_10
+      name: Teddy_Walk2
       rect:
         serializedVersion: 2
         x: 47
@@ -549,7 +549,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_11
+      name: Teddy_Walk3
       rect:
         serializedVersion: 2
         x: 87
@@ -570,7 +570,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_12
+      name: Teddy_Walk4
       rect:
         serializedVersion: 2
         x: 121
@@ -591,7 +591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_13
+      name: Teddy_Jump1
       rect:
         serializedVersion: 2
         x: 13
@@ -612,7 +612,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_14
+      name: Teddy_Jump2
       rect:
         serializedVersion: 2
         x: 50
@@ -633,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_15
+      name: Teddy_Landing
       rect:
         serializedVersion: 2
         x: 81
@@ -654,7 +654,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_16
+      name: Teddy_Jumpswing1
       rect:
         serializedVersion: 2
         x: 14
@@ -675,7 +675,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_17
+      name: Teddy_Jumpswing2
       rect:
         serializedVersion: 2
         x: 60
@@ -696,7 +696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_18
+      name: Teddy_Jumpswing3
       rect:
         serializedVersion: 2
         x: 112
@@ -717,7 +717,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_19
+      name: Teddy_Jumpswing4
       rect:
         serializedVersion: 2
         x: 162
@@ -738,11 +738,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_20
+      name: Teddy_Jumpswing5
       rect:
         serializedVersion: 2
         x: 226
-        y: 370
+        y: 371
         width: 52
         height: 37
       alignment: 6
@@ -759,7 +759,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_21
+      name: Teddy_Jumpswing6
       rect:
         serializedVersion: 2
         x: 287
@@ -780,7 +780,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Teddy_animation_chart_22
+      name: Teddy_Jumpswing7
       rect:
         serializedVersion: 2
         x: 333
