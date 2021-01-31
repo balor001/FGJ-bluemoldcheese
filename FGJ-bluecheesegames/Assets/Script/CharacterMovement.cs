@@ -30,6 +30,7 @@ public class CharacterMovement : MonoBehaviour
                 {
                     animator.SetBool("InAir", true);
                     animator.SetTrigger("Jump");
+                    FindObjectOfType<AudioManager>().Play("player_jump");
                 }
             }
             else animator.SetBool("InAir", false);
