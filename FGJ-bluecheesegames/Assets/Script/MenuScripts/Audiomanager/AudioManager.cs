@@ -42,9 +42,9 @@ public class AudioManager : MonoBehaviour
 		}
 
 		//totally arbitrary values that will be replaced when the saving system is implemented
-		//masterVolume = 0.2f;
-		//musicVolume = 0.34f;
-		//SFXVolume = 0.2f;
+		masterVolume = 0.2f;
+		musicVolume = 0.34f;
+		SFXVolume = 0.2f;
 
 		//Plays the current gamemusic
 		Play("bgmusic");
@@ -67,7 +67,7 @@ public class AudioManager : MonoBehaviour
 	//sets the master volume by applying it's multiplier between 0-1 to both of the 
 	public void SetMasterVolume(float newMasterVolume){
 		//sets the multiplier for all other volumes and then calls their functions to set themselves
-		masterVolume = newMasterVolume;
+		masterVolume = 1;
 		SetMusicVolume(musicVolume);
 		SetSFXVolume(SFXVolume);
 	}
@@ -104,8 +104,8 @@ public class AudioManager : MonoBehaviour
 			//lists all the sounds that were not affected by this change in the debug log
 			//else UnityEngine.Debug.LogWarning(SoundInstance.name + " was not affected and its volume is " + SoundInstance.source.volume);
 
-			SFXVolume = newSFXVolume;
 		}
+		SFXVolume = newSFXVolume;
 	}
 
 

@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.81
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -989,7 +989,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.19
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1798,12 +1798,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192048539}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 515.36414, y: 368.13705, z: -148.96875}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -60.635864, y: 44.137054, z: -148.96875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1283792122}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1195503274
 GameObject:
@@ -2000,7 +2000,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.21
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2044,14 +2044,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8befd46e382637a4f91bde8f7fe8ee0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  masterVolume: 0.23
-  musicVolume: 0.23
-  SFXVolume: 0.21
+  masterVolume: 0.5
+  musicVolume: 0.5
+  SFXVolume: 0.5
   sounds:
   - name: bgmusic
     clip: {fileID: 8300000, guid: dd18d2ca6aecc92439dfe87395f1b1f7, type: 3}
     category: music
-    volume: 0.39
+    volume: 0.13
     pitch: 0
     loop: 1
     source: {fileID: 0}
@@ -2292,6 +2292,7 @@ RectTransform:
   m_Children:
   - {fileID: 1390351640}
   - {fileID: 720508005}
+  - {fileID: 1192048541}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

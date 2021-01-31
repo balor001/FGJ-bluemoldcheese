@@ -34,6 +34,10 @@ public class SliderReader : MonoBehaviour
         masterSlider.value = masterVolume;
         musicSlider.value = musicVolume;
         SFXSlider.value = SFXVolume;
+
+        ChangeMasterVol(1f);
+        ChangeMusicVol(1f);
+        ChangeSFXVol(1f);
     }
 
     //Changes the master volume by receiving a float and then sending it to audiomanager
