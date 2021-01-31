@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pathfinding;
 
 public class Enemy_AI : MonoBehaviour
 {
@@ -10,54 +9,35 @@ public class Enemy_AI : MonoBehaviour
 
     public Transform attackPoint;
     public Vector2 attackRange = new Vector2(1f, 1f);
-    int damageDealt;
+    int attackDamage;
     public LayerMask playerLayer;
-    public float attackRate = 2f;
-    float nextAttackTime = 0f;
+
+
 
     EnemyStats enemyStats;
-    AIPath aIPath;
-    public Enemy_Turner enemy_Turner;
+
+    public Vector2 attackOffset;
+
+
 
     private void Start()
     {
         enemyStats = GetComponent<EnemyStats>();
-        aIPath = GetComponent<AIPath>();
-        //enemy_Turner = GetComponent<Enemy_Turner>();
+        attackDamage = enemyStats.attackDamage;
 
-        damageDealt = enemyStats.attackDamage;
+
     }
 
-    private void FixedUpdate()
+    public void Attack()
     {
-        animator.SetFloat("Speed", Mathf.Abs(aIPath.velocity.x));
-    }
-
-    private void Update()
-    {
-        if (aIPath.reachedEndOfPath && Time.time >= nextAttackTime)
-        {
-            Attack();
-            nextAttackTime = Time.time + 1f / attackRate;
-        }
-    }
-
-    void Attack()
-    {
-        animator.SetTrigger("Attack"); // Play animation
-
-        Collider2D[] hitCharacter = Physics2D.OverlapBoxAll(attackPoint.position, attackRange, playerLayer); // deteck enemies in range
+        //animator.SetTrigger("Attack"); // Play animation
+        Collider2D colInfo = Physics2D.OverlapBox(attackPoint.position, attackRange, playerLayer); // hit enemies in range
 
         // Damage
-        foreach (Collider2D character in hitCharacter)
+        if (colInfo != null)
         {
-            if (enemy_Turner.AttackReached)
-            {
-                Debug.Log("We hit" + character.name);
-                character.GetComponent<PlayerStats>().TakeDamage(damageDealt);
-                enemy_Turner.AttackReached = false;
-            }
-
+            Debug.Log(name + " hit" + colInfo.name);
+            colInfo.GetComponent<PlayerStats>().TakeDamage(attackDamage);
         }
 
     }

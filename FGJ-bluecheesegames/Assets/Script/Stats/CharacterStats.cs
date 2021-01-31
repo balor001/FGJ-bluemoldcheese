@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    
+
+    public Animator animator;
     public int currentHealth { get; private set; }
     public int maxHealth = 100;
     public UI_HealthBar healthBar;
     public int attackDamage = 10;
-    //public Animator animator;
 
     public Stat damage;
     public Stat armor;
@@ -48,7 +48,7 @@ public class CharacterStats : MonoBehaviour
 
     public virtual void Die()
     {
-        //animator.SetBool("IsDead", true);
+        animator.SetTrigger("Died");
         Debug.Log(transform.name + " died");
 
         this.enabled = false;

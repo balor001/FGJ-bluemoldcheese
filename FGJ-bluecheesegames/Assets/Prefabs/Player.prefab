@@ -105,12 +105,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  healthBar: {fileID: 0}
   attackDamage: 10
-  animator: {fileID: 0}
   damage:
     baseValue: 5
   armor:
     baseValue: 5
+  animator: {fileID: 1181395798453350899}
   strength:
     baseValue: 5
   agility:
